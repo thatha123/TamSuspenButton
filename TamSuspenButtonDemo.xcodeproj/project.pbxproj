@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181801FC1F3D451D00DA6DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181801FB1F3D451D00DA6DCA /* main.m */; };
+		181801FF1F3D451D00DA6DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181801FE1F3D451D00DA6DCA /* AppDelegate.m */; };
+		181802021F3D451D00DA6DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181802011F3D451D00DA6DCA /* ViewController.m */; };
+		181802051F3D451D00DA6DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181802031F3D451D00DA6DCA /* Main.storyboard */; };
+		181802071F3D451D00DA6DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181802061F3D451D00DA6DCA /* Assets.xcassets */; };
+		1818020A1F3D451D00DA6DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181802081F3D451D00DA6DCA /* LaunchScreen.storyboard */; };
+		181802151F3D451D00DA6DCA /* TamSuspenButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181802141F3D451D00DA6DCA /* TamSuspenButtonDemoTests.m */; };
+		181802201F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818021F1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.m */; };
+		181802301F3D456800DA6DCA /* TamSuspenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818022F1F3D456800DA6DCA /* TamSuspenButton.m */; };
+		181802381F3D4DFD00DA6DCA /* see.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802321F3D4DFD00DA6DCA /* see.png */; };
+		181802391F3D4DFD00DA6DCA /* see@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802331F3D4DFD00DA6DCA /* see@2x.png */; };
+		1818023A1F3D4DFD00DA6DCA /* see@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802341F3D4DFD00DA6DCA /* see@3x.png */; };
+		1818023B1F3D4DFD00DA6DCA /* sign_out.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802351F3D4DFD00DA6DCA /* sign_out.png */; };
+		1818023C1F3D4DFD00DA6DCA /* sign_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802361F3D4DFD00DA6DCA /* sign_out@2x.png */; };
+		1818023D1F3D4DFD00DA6DCA /* sign_out@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181802371F3D4DFD00DA6DCA /* sign_out@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181802111F3D451D00DA6DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181801EF1F3D451D00DA6DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181801F61F3D451D00DA6DCA;
+			remoteInfo = TamSuspenButtonDemo;
+		};
+		1818021C1F3D451D00DA6DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181801EF1F3D451D00DA6DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181801F61F3D451D00DA6DCA;
+			remoteInfo = TamSuspenButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181801F71F3D451D00DA6DCA /* TamSuspenButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamSuspenButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181801FB1F3D451D00DA6DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181801FD1F3D451D00DA6DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181801FE1F3D451D00DA6DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181802001F3D451D00DA6DCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181802011F3D451D00DA6DCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181802041F3D451D00DA6DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181802061F3D451D00DA6DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181802091F3D451D00DA6DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1818020B1F3D451D00DA6DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181802101F3D451D00DA6DCA /* TamSuspenButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamSuspenButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181802141F3D451D00DA6DCA /* TamSuspenButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamSuspenButtonDemoTests.m; sourceTree = "<group>"; };
+		181802161F3D451D00DA6DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1818021B1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamSuspenButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1818021F1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamSuspenButtonDemoUITests.m; sourceTree = "<group>"; };
+		181802211F3D451D00DA6DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1818022E1F3D456800DA6DCA /* TamSuspenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamSuspenButton.h; sourceTree = "<group>"; };
+		1818022F1F3D456800DA6DCA /* TamSuspenButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamSuspenButton.m; sourceTree = "<group>"; };
+		181802321F3D4DFD00DA6DCA /* see.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = see.png; sourceTree = "<group>"; };
+		181802331F3D4DFD00DA6DCA /* see@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "see@2x.png"; sourceTree = "<group>"; };
+		181802341F3D4DFD00DA6DCA /* see@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "see@3x.png"; sourceTree = "<group>"; };
+		181802351F3D4DFD00DA6DCA /* sign_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign_out.png; sourceTree = "<group>"; };
+		181802361F3D4DFD00DA6DCA /* sign_out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign_out@2x.png"; sourceTree = "<group>"; };
+		181802371F3D4DFD00DA6DCA /* sign_out@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign_out@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181801F41F3D451D00DA6DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1818020D1F3D451D00DA6DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181802181F3D451D00DA6DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181801EE1F3D451D00DA6DCA = {
+			isa = PBXGroup;
+			children = (
+				181801F91F3D451D00DA6DCA /* TamSuspenButtonDemo */,
+				181802131F3D451D00DA6DCA /* TamSuspenButtonDemoTests */,
+				1818021E1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests */,
+				181801F81F3D451D00DA6DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181801F81F3D451D00DA6DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181801F71F3D451D00DA6DCA /* TamSuspenButtonDemo.app */,
+				181802101F3D451D00DA6DCA /* TamSuspenButtonDemoTests.xctest */,
+				1818021B1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181801F91F3D451D00DA6DCA /* TamSuspenButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1818022D1F3D454F00DA6DCA /* TamSuspenButton */,
+				181801FD1F3D451D00DA6DCA /* AppDelegate.h */,
+				181801FE1F3D451D00DA6DCA /* AppDelegate.m */,
+				181802001F3D451D00DA6DCA /* ViewController.h */,
+				181802011F3D451D00DA6DCA /* ViewController.m */,
+				181802031F3D451D00DA6DCA /* Main.storyboard */,
+				181802061F3D451D00DA6DCA /* Assets.xcassets */,
+				181802081F3D451D00DA6DCA /* LaunchScreen.storyboard */,
+				1818020B1F3D451D00DA6DCA /* Info.plist */,
+				181801FA1F3D451D00DA6DCA /* Supporting Files */,
+			);
+			path = TamSuspenButtonDemo;
+			sourceTree = "<group>";
+		};
+		181801FA1F3D451D00DA6DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181801FB1F3D451D00DA6DCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181802131F3D451D00DA6DCA /* TamSuspenButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				181802141F3D451D00DA6DCA /* TamSuspenButtonDemoTests.m */,
+				181802161F3D451D00DA6DCA /* Info.plist */,
+			);
+			path = TamSuspenButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		1818021E1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1818021F1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.m */,
+				181802211F3D451D00DA6DCA /* Info.plist */,
+			);
+			path = TamSuspenButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		1818022D1F3D454F00DA6DCA /* TamSuspenButton */ = {
+			isa = PBXGroup;
+			children = (
+				181802311F3D4DFD00DA6DCA /* Resources */,
+				1818022E1F3D456800DA6DCA /* TamSuspenButton.h */,
+				1818022F1F3D456800DA6DCA /* TamSuspenButton.m */,
+			);
+			path = TamSuspenButton;
+			sourceTree = "<group>";
+		};
+		181802311F3D4DFD00DA6DCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				181802321F3D4DFD00DA6DCA /* see.png */,
+				181802331F3D4DFD00DA6DCA /* see@2x.png */,
+				181802341F3D4DFD00DA6DCA /* see@3x.png */,
+				181802351F3D4DFD00DA6DCA /* sign_out.png */,
+				181802361F3D4DFD00DA6DCA /* sign_out@2x.png */,
+				181802371F3D4DFD00DA6DCA /* sign_out@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181801F61F3D451D00DA6DCA /* TamSuspenButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181802241F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemo" */;
+			buildPhases = (
+				181801F31F3D451D00DA6DCA /* Sources */,
+				181801F41F3D451D00DA6DCA /* Frameworks */,
+				181801F51F3D451D00DA6DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamSuspenButtonDemo;
+			productName = TamSuspenButtonDemo;
+			productReference = 181801F71F3D451D00DA6DCA /* TamSuspenButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1818020F1F3D451D00DA6DCA /* TamSuspenButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181802271F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemoTests" */;
+			buildPhases = (
+				1818020C1F3D451D00DA6DCA /* Sources */,
+				1818020D1F3D451D00DA6DCA /* Frameworks */,
+				1818020E1F3D451D00DA6DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181802121F3D451D00DA6DCA /* PBXTargetDependency */,
+			);
+			name = TamSuspenButtonDemoTests;
+			productName = TamSuspenButtonDemoTests;
+			productReference = 181802101F3D451D00DA6DCA /* TamSuspenButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1818021A1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1818022A1F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemoUITests" */;
+			buildPhases = (
+				181802171F3D451D00DA6DCA /* Sources */,
+				181802181F3D451D00DA6DCA /* Frameworks */,
+				181802191F3D451D00DA6DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1818021D1F3D451D00DA6DCA /* PBXTargetDependency */,
+			);
+			name = TamSuspenButtonDemoUITests;
+			productName = TamSuspenButtonDemoUITests;
+			productReference = 1818021B1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181801EF1F3D451D00DA6DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂怀安";
+				TargetAttributes = {
+					181801F61F3D451D00DA6DCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+					};
+					1818020F1F3D451D00DA6DCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181801F61F3D451D00DA6DCA;
+					};
+					1818021A1F3D451D00DA6DCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181801F61F3D451D00DA6DCA;
+					};
+				};
+			};
+			buildConfigurationList = 181801F21F3D451D00DA6DCA /* Build configuration list for PBXProject "TamSuspenButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181801EE1F3D451D00DA6DCA;
+			productRefGroup = 181801F81F3D451D00DA6DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181801F61F3D451D00DA6DCA /* TamSuspenButtonDemo */,
+				1818020F1F3D451D00DA6DCA /* TamSuspenButtonDemoTests */,
+				1818021A1F3D451D00DA6DCA /* TamSuspenButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181801F51F3D451D00DA6DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1818020A1F3D451D00DA6DCA /* LaunchScreen.storyboard in Resources */,
+				181802071F3D451D00DA6DCA /* Assets.xcassets in Resources */,
+				181802051F3D451D00DA6DCA /* Main.storyboard in Resources */,
+				1818023D1F3D4DFD00DA6DCA /* sign_out@3x.png in Resources */,
+				1818023B1F3D4DFD00DA6DCA /* sign_out.png in Resources */,
+				1818023C1F3D4DFD00DA6DCA /* sign_out@2x.png in Resources */,
+				181802381F3D4DFD00DA6DCA /* see.png in Resources */,
+				181802391F3D4DFD00DA6DCA /* see@2x.png in Resources */,
+				1818023A1F3D4DFD00DA6DCA /* see@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1818020E1F3D451D00DA6DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181802191F3D451D00DA6DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181801F31F3D451D00DA6DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181802301F3D456800DA6DCA /* TamSuspenButton.m in Sources */,
+				181802021F3D451D00DA6DCA /* ViewController.m in Sources */,
+				181801FF1F3D451D00DA6DCA /* AppDelegate.m in Sources */,
+				181801FC1F3D451D00DA6DCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1818020C1F3D451D00DA6DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181802151F3D451D00DA6DCA /* TamSuspenButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181802171F3D451D00DA6DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181802201F3D451D00DA6DCA /* TamSuspenButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181802121F3D451D00DA6DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181801F61F3D451D00DA6DCA /* TamSuspenButtonDemo */;
+			targetProxy = 181802111F3D451D00DA6DCA /* PBXContainerItemProxy */;
+		};
+		1818021D1F3D451D00DA6DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181801F61F3D451D00DA6DCA /* TamSuspenButtonDemo */;
+			targetProxy = 1818021C1F3D451D00DA6DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181802031F3D451D00DA6DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181802041F3D451D00DA6DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181802081F3D451D00DA6DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181802091F3D451D00DA6DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181802221F3D451D00DA6DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181802231F3D451D00DA6DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181802251F3D451D00DA6DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181802261F3D451D00DA6DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181802281F3D451D00DA6DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamSuspenButtonDemo.app/TamSuspenButtonDemo";
+			};
+			name = Debug;
+		};
+		181802291F3D451D00DA6DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamSuspenButtonDemo.app/TamSuspenButtonDemo";
+			};
+			name = Release;
+		};
+		1818022B1F3D451D00DA6DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamSuspenButtonDemo;
+			};
+			name = Debug;
+		};
+		1818022C1F3D451D00DA6DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSuspenButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSuspenButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamSuspenButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181801F21F3D451D00DA6DCA /* Build configuration list for PBXProject "TamSuspenButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181802221F3D451D00DA6DCA /* Debug */,
+				181802231F3D451D00DA6DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181802241F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181802251F3D451D00DA6DCA /* Debug */,
+				181802261F3D451D00DA6DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181802271F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181802281F3D451D00DA6DCA /* Debug */,
+				181802291F3D451D00DA6DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1818022A1F3D451D00DA6DCA /* Build configuration list for PBXNativeTarget "TamSuspenButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1818022B1F3D451D00DA6DCA /* Debug */,
+				1818022C1F3D451D00DA6DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181801EF1F3D451D00DA6DCA /* Project object */;
+}
