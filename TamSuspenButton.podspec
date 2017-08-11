@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-    s.name          =  'TamSuspenButton’
-    s.version       =  ‘1.0.0’
+    s.name          =  'TamSuspenButton'
+    s.version       =  '1.0.0'
     s.summary       =  'A click button on the suspension window'
     s.homepage      =  'https://github.com/thatha123/TamSuspenButton'
     s.license       =  'MIT'
