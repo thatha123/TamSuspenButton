@@ -26,11 +26,11 @@
 
 @interface TamSuspenButton()
 
-@property(nonatomic,strong)NSArray *dataArr;//模型数组
-@property(nonatomic,strong)UIView *parentView;//父视图
+@property(nonatomic,copy)NSArray *dataArr;//模型数组
+@property(nonatomic,weak)UIView *parentView;//父视图
 //@property(nonatomic,strong)UIView *bgkView;//背景
 @property(nonatomic,assign)CGRect btnRect;
-@property(nonatomic,strong)UIButton *openAndCloseBtn;
+@property(nonatomic,weak)UIButton *openAndCloseBtn;
 
 @property(nonatomic,copy)ClickBtnBlock clickBtnBlock;
 
